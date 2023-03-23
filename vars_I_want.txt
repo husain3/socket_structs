@@ -1,0 +1,16 @@
+Assetto Corsa and Kia Soul
+
+('gas', c_float),
+('brake', c_float),
+('rpms', c_int32),
+('steerAngle', c_float),
+('speedKmh', c_float),
+('accG', c_float * 3),
+('wheelAngularSpeed', c_float * 4),
+
+2012 Kia Soul
+Signals available: Accelerator Pedal Position, Brake Position, Engine Speed, Gear, Steering Angle, Wheel Speed 1, Wheel Speed 2, Wheel Speed 3, Wheel Speed 4.
+
+
+('tyreCoreTemperature', c_float * 4),
+('brakeTemp', c_float * 4),

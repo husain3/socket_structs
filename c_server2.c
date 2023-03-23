@@ -12,9 +12,15 @@ typedef struct payload_t {
     uint32_t id;
     uint32_t counter;
     float temp;
+    uint32_t counter2;
 } payload;
 
 #pragma pack()
+
+//Struct from acti
+/*86 * float 4
+23 * long 4
+92 * char 1*/
 
 
 int createSocket(int port)
